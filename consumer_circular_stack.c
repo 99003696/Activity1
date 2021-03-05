@@ -2,6 +2,7 @@
 #include <semaphore.h>
 #include <stdlib.h>
 #include <pthread.h>
+#define MAX 7
 
 sem_t empty;
 sem_t full;
